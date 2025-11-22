@@ -3,6 +3,8 @@
 #Project Objectives
 
 The goal of this project is to analyze store performance, customer behavior, and inventory availability to generate actionable business insights.
+
+
 The project covers:
 
 Relationship between inventory levels and sales/customer purchasing
@@ -16,6 +18,8 @@ Relationship between inventory levels and sales/customer purchasing
  Simulating impact of inventory optimization on sales & satisfaction
 
  Building dashboard visualizations for key KPIs
+
+
 
 
  Entities included in the analysis:
@@ -45,4 +49,13 @@ promotions   = pd.read_csv('promotion_details.csv')
 loyalty      = pd.read_csv('loyalty_rules.csv')
 
 ```
+
+what we have done :
+
+
+took the dataset load in the jupyter notebook
+then we do the data pre - processing 
+clean the data , handle missing value , outliers 
+train thr model .
+for discounting our model give R2 :0.99
 
