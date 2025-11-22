@@ -34,6 +34,8 @@ loyalty_rules.csv -> 	Loyalty tier mapping
 
 import pandas as pd
 
+
+
 sales_header = pd.read_csv('store_sales_header_5000.csv')
 sales_lines  = pd.read_csv('store_sales_line_items_5000.csv')
 products     = pd.read_csv('products_5000.csv')
@@ -43,3 +45,4 @@ promotions   = pd.read_csv('promotion_details.csv')
 loyalty      = pd.read_csv('loyalty_rules.csv')
 
 ```
+
